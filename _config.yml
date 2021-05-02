@@ -47,13 +47,9 @@ dash:
       icon: instagram
       color: blue
       
-
   show_author: true
 
   animation_speed: 50
-
-# Build settings
-theme: jekyll-dash
 
 plugins:
  - jekyll-feed
@@ -66,4 +62,4 @@ plugins:
 #avatar_source: github
 #github_username: itrich
 avatar_source: local
-avatar_path: /assets/avatar.png
+avatar_path: /blog/assets/avatar.png
