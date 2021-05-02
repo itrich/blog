@@ -1,0 +1,69 @@
+title: itrich
+author: Eduard Itrich
+email: eduard@itrich.net
+description: > # this means to ignore newlines until "show_exerpts:"
+  Hello, my name is <strong>Eduard Itrich</strong> and I'm a Linux enthusiast with a strong mathematical background, 
+  currently orchestrating the digital transformation of a German municipal government. Follow me for varied content 
+  on <b>eGovernment</b>, <b>Civic Tech</b>, <b>Smart City</b>, <b>Open Source</b> and <b>Open Infrastructure</b>.
+show_excerpts: true # set to true to show excerpts on the homepage
+
+paginate: 10
+paginate_path: "/blog/page:num/"
+
+tag_permalink_style: pretty
+tag_page_layout: tag_page
+tag_page_dir: tag
+
+# jekyll-dash date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+dash:
+  date_format: "%d. %B %Y"
+
+#  disqus:
+#    shortname: bitbrain-github-io
+
+  # generate social links in footer
+  # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
+  social_links:
+    - url: https://twitter.com/EduardItrich
+      icon: twitter
+      color: cyan
+    - url: https://digitalcourage.social/@EduardItrich
+      icon: mastodon
+      color: red
+    - url: https://github.com/itrich
+      icon: github
+      color: purple
+    - url: https://stackoverflow.com/users/6532156/eduard-itrich
+      icon: stack-overflow
+      color: orange
+    - url: https://www.linkedin.com/in/eduard-itrich/
+      icon: linkedin
+      color: indigo
+    - url: https://www.xing.com/profile/Eduard_Itrich/cv
+      icon: xing
+      color: teal
+    - url: https://www.instagram.com/eduarditrich/
+      icon: instagram
+      color: blue
+      
+
+  show_author: true
+
+  animation_speed: 50
+
+# Build settings
+theme: jekyll-dash
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+ - jekyll-paginate
+ - liquid-md5
+ - jekyll/tagging
+
+# Replaces the default avatar provider (gravatar)
+#avatar_source: github
+#github_username: itrich
+avatar_source: local
+avatar_path: /assets/avatar.png

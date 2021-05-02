@@ -1,0 +1,1 @@
+Personal blog based on the [jekykll-dash](https://github.com/bitbrain/jekyll-dash) theme by [bitbrain](https://bitbra.in)
