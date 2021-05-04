@@ -26,8 +26,8 @@ jobs:
       uses: burnett01/rsync-deployments@4.1
       with:
         switches: -avzr --delete
-        path: _site
-        remote_path: /
+        path: _site/
+        remote_path: /blog
         remote_host: ${{ matrix.target }}.uberspace.de
         remote_user: itrich
         remote_key: ${{ secrets.DEPLOY_KEY }}
