@@ -8,7 +8,7 @@ description: > # this means to ignore newlines until "show_exerpts:"
 show_excerpts: true # set to true to show excerpts on the homepage
 
 paginate: 10
-paginate_path: "/blog/page:num/"
+paginate_path: "/page:num/"
 
 tag_permalink_style: pretty
 tag_page_layout: tag_page
@@ -40,12 +40,6 @@ dash:
     - url: https://www.linkedin.com/in/eduard-itrich/
       icon: linkedin
       color: indigo
-    - url: https://www.xing.com/profile/Eduard_Itrich/cv
-      icon: xing
-      color: teal
-    - url: https://www.instagram.com/eduarditrich/
-      icon: instagram
-      color: blue
       
   show_author: true
 
@@ -62,4 +56,4 @@ plugins:
 #avatar_source: github
 #github_username: itrich
 avatar_source: local
-avatar_path: /blog/assets/avatar.png
+avatar_path: /assets/avatar.png
