@@ -1,5 +1,5 @@
 <div class="toggleWrapper">
-    <input type="checkbox" class="dn" id="theme-toggle" onclick="modeSwitcher()" checked />
+    <input type="checkbox" class="dn" id="theme-toggle" onclick="modeSwitcher()" unchecked />
     <label for="theme-toggle" class="toggle">
     <span class="toggle__handler">
       <span class="crater crater--1"></span>
@@ -46,10 +46,10 @@ if (theme === "dark") {
     activateDarkTheme();
 } else if (theme === "light") {
     activateLightTheme();
-} else if  (userPrefers === "light") {
+} else if  (userPrefers === "dark") {
     activateDarkTheme();
 } else {
-    activateDarkTheme();
+    activateLightTheme();
 }
 
 function modeSwitcher() {
