@@ -2,9 +2,10 @@ title: itrich
 author: Eduard Itrich
 email: eduard@itrich.net
 description: > # this means to ignore newlines until "show_exerpts:"
-  Hello, my name is <strong>Eduard Itrich</strong> and I'm a Linux enthusiast with a strong mathematical background, 
-  currently orchestrating the digital transformation of a German municipal government. Follow me for varied content 
-  on <b>eGovernment</b>, <b>Civic Tech</b>, <b>Smart City</b>, <b>Open Source</b> and <b>Open Infrastructure</b>.
+  Hello, my name is <strong>Eduard Itrich</strong> and I'm an open source and infrastructure evangelist 
+  currently empowering the Sovereign Cloud Stack community at the OSB Alliance (Open Source Business Alliance). 
+  Follow me for varied content on <b>eGovernment</b>, <b>Civic Tech</b>, <b>Smart City</b>, 
+  <b>Open Source</b> and <b>Open Infrastructure</b>.
 show_excerpts: true # set to true to show excerpts on the homepage
 
 paginate: 10
